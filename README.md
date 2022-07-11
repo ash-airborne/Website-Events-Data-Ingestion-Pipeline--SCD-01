@@ -33,7 +33,7 @@ This is an automated pipeline utilising *Distributed processing* and *Distribute
 *"We created two tables one for loading the data coming in daily in csv format and one for data reconciliation."*
 
 ## Unix Shell Scripting
-Now to automate the *data ingestion pipeline* we used *shell scripting*. We could have used an *orchestration tool* like ***Airflow*** but for the scope of this project as there were only a few commands that needed to be executed on a daily basis,so *shell scripting* was enough to do the job. 
+Now to automate the *data ingestion pipeline* we used *shell scripting*. We could have used an *orchestration tool* like ***Airflow*** but for the scope of this project as there were only a few commands that needed to be executed on a daily basis, so *shell scripting* was enough to do the job. 
 
 *"There were Two shell scripts used in total, the first one named 'ots_setup.sh' was used to create all the infrastructure to handle the data, like MySQL table creation, Hive managed table creation, sqoop job creation and reconciliation table creation, the second shell script named 'daily_exec.sh' was used to perform all the tasks for the pipeline like sqoop incremental imports, loading data from HDFS into hive, and checking for data integrity."*
 
