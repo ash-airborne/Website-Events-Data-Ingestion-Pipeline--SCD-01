@@ -1,0 +1,9 @@
+2022-06-25 02:49:41 DATA INGESTION INTO MYSQL TABLE  SUCCESSFUL
+2022-06-25 02:49:42 DATA LOADED SUCCESSFULLY INTO MYSQL TABLE data
+2022-06-25 02:49:42 Dataset has been copied to archive
+2022-06-25 02:50:04 DATA Ingestion to hadoop successfull
+2022-06-25 02:50:05 Copying to hive warehouse successful
+2022-06-25 02:51:22 Data inserted into hive tables successfully
+2022-06-25 02:51:22 Table Truncated
+2022-06-25 02:51:57 Data insertion into recon table successful
+2022-06-25 02:51:57 Data Reconciliation successful

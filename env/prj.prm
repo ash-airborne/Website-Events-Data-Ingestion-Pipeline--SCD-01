@@ -1,0 +1,11 @@
+USER=root
+PASS=Welcome@123
+HOST=localhost
+PORT=3306
+DB=project01
+PASS_FILE=file:///home/saif/cohort_ff11/datasets/sqoop.pwd
+TABLE=data
+REC=recon
+OP_DIR=/user/saif/HFS/Input/
+JOB_NAME=incr_lastmod
+HIVE_DIR=/user/hive/warehouse/
